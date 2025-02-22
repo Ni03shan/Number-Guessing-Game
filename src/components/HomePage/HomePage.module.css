@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 522px;
+    min-width: 1182px;  
+}
+.textdiv{
+    min-width: 528px;
+    min-height: 188px;
+    font-family: "Poppins", serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    min-width: 649px;
+    min-height: 522px;
+}
+.TagName{
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 144px;
+    color: black;
+    margin: 0%;
+}
+.button{
+   background-color: black;
+   color: white;
+   min-width: 220px;
+   min-height: 44px;
+   border: 1px solid none;
+   border-radius: 5px;
+   margin-left: 50%;
+   font-weight: 600;
+   font-size: 21px;
+   & :hover{
+    cursor: pointer;
+    border: 2px solid;
+    border-color: rgb(217, 43, 43);
+    transform: scale(-5);
+   }
+}

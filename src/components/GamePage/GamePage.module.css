@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.Navigation{
+    width: 1280px;
+    min-height: 151px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    font-family: poppins;
+    margin-top: 3%;
+}
+.ScoreBoard{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1%;
+}
+.Zero{
+    min-width: 60px;
+    min-height: 25px;
+    font-weight: 500;
+    font-size: 100px;
+    margin: 0%;
+}
+.TotalScore{
+    min-width: 135px;
+    min-height: 36px;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0%;
+    margin-top: -10%;
+}
+.selectButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 552px;
+    min-height: 138px;
+}
+.PressButton{
+    min-width: 552px;
+min-height: 72px;
+gap: 24px;
+margin: 0%;
+display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.SelBtn{
+    min-width: 72px;
+    min-height: 72px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    font-size: 25px;
+    margin-top: 5%;
+    &:hover{
+         cursor: pointer;
+         border: 3px solid;
+         border-color: rgb(34, 35, 54);
+    }
+}
+.SelectNum{
+    min-width: 182px;
+    min-height: 36px;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 57%;
+    margin-top: -0.1%;
+}
+ .MainGame{
+    min-width: 250px;
+    min-height: 449px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 36px;
+    margin-top: -2.5%;
+    font-family:poppins;
+    margin: 0%;
+}
+.img{
+    min-width: 100px;
+    min-height: 100px;
+    & :hover{
+        cursor: pointer;
+    }
+}
+.Dice{
+    text-align: center;
+    margin: 0%;
+}
+.Dice P{
+    min-width: 229px;
+    min-height: 36px;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0%;
+}
+.RulesBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.RulesBtn button{
+    min-width: 220px;
+    min-height: 44px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    &:hover{
+        cursor: pointer;
+        border: 3px solid;
+        border-color: rgb(34, 35, 54);
+   }
+} 
+.error{
+    min-width: 192px;
+    min-height: 36px;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0%;
+    color: red;
+    gap: 10%;
+
+}
+.Rules{
+    background-color: antiquewhite;
+    font-weight: 500;
+    padding: 20Px 20px 20px 20px;
+    border-radius: 5%;
+    position: absolute;
+    left: 60%;
+    bottom: 10%;
+    box-shadow: 0px 10px 10px rgb(225, 224, 224);
+}
